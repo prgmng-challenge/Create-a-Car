@@ -21,17 +21,49 @@ Duckboat.java. This is what my folder looks like:
 [My code directory](Create-a-Car/Vehicle_folder.png)
 
 First I compile my new class:
+
 ```javac Duckboat.java```
 
 Now compile ShowOffMyVehicle.java:
+
 ```javac ShowOffMyVehicle.java```
 
 Now run ShowOffMyVehicle:
+
 ```java ShowOffMyVehicle```
 
 #### Example Subclass
-```Java
+**NOTE: This code does not necessarily satisfy the rules of this challenge**
 
+```Java
+class Duckboat {
+  public Duckboat(String make, String model, String color){
+    this.make = make;
+    this.model = model;
+    this.color = color;
+  }
+  
+  public void travel(String destination){
+    System.out.println("The " + this.color + " duckboat travelled to " + destination + "!");
+  }
+}
+```
+
+#### Example ShowOffMyVehicle.java
+**NOTE: This code does not necessarily satisfy the rules of this challenge**
+
+```Java
+public class ShowOffMyVehicle {
+  public static void main (String [] args) {
+    Duckboat d = new Duckboat("Crestliner", "Retriever", "Brown Camo");
+    d.travel("New Orleans");
+  }
+}
+```
+
+**Sample Output:**
+```
+The Brown Camo duckboat travelled to New Orleans!
 ```
 
 
