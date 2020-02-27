@@ -17,11 +17,15 @@ the functionality you implemented.
 #### Compiling and Running
 After compiling Vehicle.java to create Vehicle.class, save and compile your new class. My new class in this example is in the file 
 Duckboat.java. This is what my folder looks like:
+
 [My code directory](Create-a-Car/Vehicle_folder.png)
+
 First I compile my new class:
 ```javac Duckboat.java```
+
 Now compile ShowOffMyVehicle.java:
 ```javac ShowOffMyVehicle.java```
+
 Now run ShowOffMyVehicle:
 ```java ShowOffMyVehicle```
 
