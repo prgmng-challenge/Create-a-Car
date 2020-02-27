@@ -6,7 +6,8 @@ In the folder [prgmng-challenge/Create-a-Car/src](/src) there is a file, Vehicle
 this challenge, create a new .java file, and in it, define a new class that extends Vehicle. In your new class you MUST:
 1. define a contructor that accepts parameters to set the properties ```make```, ```model```, and ```color```.
 2. override the ```add_passenger()```, ```remove_passenger()```, and ```travel(String destination)``` methods and provide 
-an implementation for them. **NOTE: Your ```travel()``` method MUST make use of at least one of the properties of your class.**
+an implementation for them. **NOTE: Your ```travel()``` method MUST make use of at least one of the properties ```num_seats``` or
+```num_passengers``` from your class.**
 3. use the template file ShowOffMyVehicle.java and its main method to create an instance of your new class and add some code to display
 the functionality you implemented.
 
