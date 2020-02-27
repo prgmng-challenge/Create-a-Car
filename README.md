@@ -15,7 +15,7 @@ the functionality you implemented.
 After compiling Vehicle.java to create Vehicle.class, save and compile your new class. My new class in this example is in the file 
 Duckboat.java. This is what my folder looks like:
 
-[My code directory](Create-a-Car/vehicle_folder.png)
+[My code directory](vehicle_folder.png)
 
 First I compile my new class:
 
